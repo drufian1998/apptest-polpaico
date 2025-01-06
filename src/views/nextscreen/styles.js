@@ -1,0 +1,91 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  nextScreenContainer: {
+    flex: 1,
+    backgroundColor: 'rgba(0,0,0,0.6)',
+  },
+  nextScreenTitleContainer: {
+    paddingVertical: 15,
+    paddingHorizontal: 25,
+    borderRadius: 12,
+    alignSelf: 'center',
+    marginTop: 20,
+    marginBottom: 20,
+  },
+  nextScreenTitle: {
+    fontSize: 26,
+    fontWeight: 'bold',
+    color: '#fff',
+    textAlign: 'center',
+    textShadowColor: 'rgba(50, 50, 50, 0.9)',
+    textShadowOffset: { width: 1, height: 1 },
+    textShadowRadius: 3,
+  },
+  nextScreenScrollContainer: {
+    flexGrow: 1,
+    paddingHorizontal: 15,
+    paddingBottom: 100,
+  },
+  nextScreenNewsCard: {
+    marginBottom: 40,
+    borderRadius: 15,
+    overflow: 'hidden',
+    elevation: 3,
+    backgroundColor: '#fff',
+    minHeight: 250,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+  },
+  nextScreenBackground: {
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    zIndex: 1,
+    flexDirection: 'row',
+  },
+  nextScreenImageTopLeft: {
+    width: '50%',
+    height: '100%',
+    resizeMode: 'cover',
+    opacity: 0.3,
+  },
+  nextScreenImageBottomRight: {
+    width: '50%',
+    height: '100%',
+    resizeMode: 'cover',
+    opacity: 0.3,
+  },
+  nextScreenContent: {
+    zIndex: 2,
+    padding: 20,
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    borderRadius: 15,
+  },
+  nextScreenNewsTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#fff',
+    marginBottom: 10,
+    textAlign: 'center',
+  },
+  nextScreenNewsDate: {
+    fontSize: 14,
+    color: '#ddd',
+    marginBottom: 5,
+    textAlign: 'center',
+  },
+  nextScreenNewsText: {
+    fontSize: 16,
+    color: '#fff',
+    textAlign: 'justify',
+    lineHeight: 24,
+    marginTop: 10,
+    paddingHorizontal: 10,
+  },
+  nextScreenBackgroundImage: {
+    flex: 1,
+  },
+});
